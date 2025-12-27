@@ -41,7 +41,7 @@ python bandcamp-library-scraper.py -f bandcamp-library-export.html -t discograph
 ## Installation
 
 ```
-git clone https://github.com/dbeley/bandcamp-library-scraper
+git clone https://github.com/kpkp396/bandcamp-library-scraper
 cd bandcamp-library-scraper
 pip install -r requirements.txt
 python bandcamp-library-scraper.py -h
