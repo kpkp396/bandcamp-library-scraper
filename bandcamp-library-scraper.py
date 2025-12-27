@@ -18,7 +18,7 @@ def parse_artist_name(raw_text: str) -> str:
 
 
 def read_soup_from_fs(filename: str):
-    with open(filename, "r") as f:
+    with open(filename, "r", encoding="utf8") as f:
         content = f.read()
     return BeautifulSoup(content, "html.parser")
 
